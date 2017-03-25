@@ -6,7 +6,7 @@ export default class Home extends React.Component{
       <div className="tattoo">
         <img src={Img5} />
         <div className="des">
-          这是我的一幅水彩的作品是不是很漂亮呀
+          这是一幅水彩作品
         </div>
       </div>
     )

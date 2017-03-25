@@ -12,7 +12,7 @@
 // }
 
 import React from "react";
-import {Router,Route,browserHistory,IndexRoute} from "react-router";
+import {Router,Route,hashHistory,IndexRoute} from "react-router";
 import App from "./App";
 import Home from "./components/Home";
 import Tattoo from "./components/Tattoo";
@@ -21,7 +21,7 @@ import Hobby from "./components/Hobby";
 import Blog from "./components/Blog";
 export default function(){
   return(
-    <Router history={browserHistory}>
+    <Router history={hashHistory}>
       <Route path="/" component={App}>
         <IndexRoute component={Home}/>
         <Route path="tattoo" component={Tattoo}/>

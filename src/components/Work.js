@@ -6,7 +6,7 @@ export default class Work extends React.Component{
       <div className="tattoo">
         <img src={Img2} />
         <div className="des">
-          这是我的一幅水彩的作品是不是很漂亮呀
+          这里面有两幅作品，是以动物为主题的，另外添加了一点中国风的泼墨的感觉
         </div>
       </div>
     )

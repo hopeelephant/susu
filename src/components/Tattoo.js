@@ -6,7 +6,7 @@ export default class Tattoo extends React.Component{
       <div className="tattoo">
         <img src={Img1} />
         <div className="des">
-          这是我的一幅水彩的作品是不是很漂亮呀
+          这个里面还是主要是以动物为主的作品
         </div>
       </div>
     )

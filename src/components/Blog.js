@@ -6,7 +6,7 @@ export default class Blog extends React.Component{
       <div className="tattoo">
         <img src={Img4} />
         <div className="des">
-          这是我的一幅水彩的作品是不是很漂亮呀
+          这是一幅黑灰素描作品
         </div>
       </div>
     )
